@@ -5,10 +5,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/ePWYTvy2FUk.jpg') {
-      myImage.setAttribute ('src','images/QwWXufNMSxY.jpg');
+    if(mySrc === 'img/ePWYTvy2FUk.jpg') {
+      myImage.setAttribute ('src','img/QwWXufNMSxY.jpg');
     } else {
-      myImage.setAttribute ('src','images/ePWYTvy2FUk.jpg');
+      myImage.setAttribute ('src','img/ePWYTvy2FUk.jpg');
     }
 }
 

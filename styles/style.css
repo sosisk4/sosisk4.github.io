@@ -1,3 +1,9 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
 html {
   font-size: 20px;
   font-family: 'Rubik Beastly', cursive;
@@ -58,3 +64,31 @@ a:hover {
 	color: lime;
 }
 */
+
+.c1 {
+	color: red;
+}
+
+.c2 {
+	color: orange;
+}
+
+.c3 {
+	color: yellow;
+}
+
+.c4 {
+	color: green;
+}
+
+.c5 {
+	color: #00FFFF;
+}
+
+.c6 {
+	color: #0080FF;
+}
+
+.c7 {
+	color: purple;
+}

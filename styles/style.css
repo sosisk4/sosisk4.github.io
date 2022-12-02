@@ -1,5 +1,6 @@
+
 html {
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Rubik Beastly', cursive;
   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
 }
@@ -10,6 +11,33 @@ body {
   background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
   padding: 0 20px 20px 20px;
   border: 5px solid black;
+}
+
+/* СВОЙСТВА БЛОКОВ */
+.blockblock {
+	border: 3px solid #000;
+	margin: 10% 10% 10% -30%;
+	background-image: url('../img/giphy.gif');
+	background-position: center;
+	background-size: 720px 300px;
+}
+
+.blockblock2 {
+	margin: -60% -50% 10% 70%;
+	height: 300px;
+	width: 200px;
+	background-image: url('../img/7011dc12a7566acd571c56f7451aad0c_w200.webp');
+	background-repeat: no-repeat;
+	overflow: visible;
+	position: relative;
+}
+
+
+/* ШРИФТЫ */
+.arial {
+	font-family: cursive;
+	text-decoration: wavy overline black;
+	text-shadow: 50px 100px 1px;
 }
 
 /*

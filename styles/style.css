@@ -13,6 +13,55 @@ body {
   border: 5px solid black;
 }
 
+.kubik1 {
+	border: 2px solid;
+	width: 100px;
+	height: 100px;
+	margin-left: -20%;
+	display: inline-block;
+	transform: rotate(40deg);
+	background: linear-gradient(to bottom right, blue, pink);
+	opacity: 90%;
+}
+
+.kubik2 {
+	border: 2px solid;
+	width: 100px;
+	height: 100px;
+	margin-right: -30px;
+	display: inline-block;
+	background: radial-gradient(red, orange);
+}
+
+.kubik3 {
+	border: 2px solid;
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	display: inline-block;
+	background:
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+  opacity: 60%;
+}
+
+.kubik4 {
+	border: 2px solid;
+	width: 100px;
+	height: 100px;
+	margin-left: 60px;
+	display: inline-block;
+	transform: rotate(-13deg);
+	background: repeating-radial-gradient(black, black 5px, white 5px, white 10px);
+}
+
 /* СВОЙСТВА БЛОКОВ */
 .blockblock {
 	border: 3px solid #000;

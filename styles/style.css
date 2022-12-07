@@ -9,8 +9,25 @@ body {
   width: 600px;
   margin: 0 auto;
   background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
-  padding: 0 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   border: 5px solid black;
+}
+
+.glaz {
+	height: 60px;
+	width: 60px;
+	background-image: url('../img/camera.png');
+	background-position: 50% 50%;
+	background-size: contain;
+	margin-left: 160%;
+	margin-top: -10px;
+	background-attachment: scroll;
+	/* position: relative;
+  top: -100px;
+  left: -100px; */
+	background-repeat: no-repeat;
+	position: sticky;
+	top: -10px;
 }
 
 .kubik1 {
